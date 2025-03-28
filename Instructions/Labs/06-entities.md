@@ -53,7 +53,7 @@ Microsoft Copilot Studio では、エンティティを使用してユーザー�
 
 1. **[Closed list]** タイルを選択します。
 
-1. **[名前]** フィールドに **`Property Type`** と入力します
+1. **[Name]** フィールドに「**`Property Type`**」と入力します。
 
 1. **[Enter item]** フィールドに「**`Apartment`**」と入力し、**[Add]** を選択します。
 
