@@ -45,7 +45,7 @@ Microsoft Copilot Studio は、Power Automate クラウド フローを使用し
 
     ![アクションを追加するステップ 1 のスクリーンショット。](../media/add-action-step-1.png)
 
-1. **[フロー]** フィルターを選択し、**[新しいフローの作成]** を選択します。
+1. **[フロー]** フィルターを選択してから、**[デスクトップ用 Power Automate でフローを実行する]** を選択します。
 
 1. プロンプトが表示されたら Power Automate にサインインします。
 
