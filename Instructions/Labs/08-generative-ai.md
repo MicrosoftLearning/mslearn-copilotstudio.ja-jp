@@ -10,11 +10,11 @@ lab:
 
 このラボでは、次のことを行います。
 
-- コパイロット アクションを作成する
+- エージェント アクションを作成する
 
 ## 学習する内容
 
-- 生成応答機能を使用して、コパイロットの応答を改善する方法。
+- 生成回答機能を使用してエージェントの応答を改善する方法
 
 ## ラボ手順の概要
 
@@ -23,7 +23,7 @@ lab:
   
 ## 前提条件
 
-- **ラボ: Copilot アクションの作成**を完了している必要があります
+- **ラボ: エージェント アクションの作成**を完了している必要があります
 
 ## 詳細な手順
 
@@ -33,7 +33,7 @@ lab:
 
 1. まだ開いていない場合は、Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、適切な環境にあることを確認します。
 
-1. 左側のナビゲーションから **[Copilots]** を選択します。
+1. 左側のナビゲーションから **[エージェント]** を選択します。
 
 1. 前のラボで作成した **[Real Estate Booking Service]** を選択します。
 
@@ -41,13 +41,13 @@ lab:
 
 1. **[Generative AI]** タブを選択します。
 
-1. **[How should your copilot interact with people?]** の下の **[Generative]** を選択します。
+1. **[How should your agent interact with people?]** の下の **[Generative]** を選択します。
 
 1. **"How strict should the content moderation be?"** には、**[Medium - More Balanced]** を選択します。
 
 1. **[保存]** を選択します。
 
-    ![CoPilot Studio の設定の生成 AI ウィンドウ](../media/settings-generative-ai-2.png)
+    ![Copilot Studio の設定の生成 AI ウィンドウ](../media/settings-generative-ai-2.png)
 
 1. Copilot Studio の右上にある **[X]** アイコンを選択して、**[Settings]** メニューを閉じます。
 
@@ -159,7 +159,7 @@ lab:
 
 ## 演習 4 - 生成 AI のテスト
 
-### タスク 4.1 コパイロットの知識をテストする
+### タスク 4.1 エージェントの知識をテストする
 
 1. 開かない場合は、画面の右上にある **[Test]** ボタンを選択してテスト パネルを開きます。
 
@@ -171,4 +171,4 @@ lab:
 
 1. テスト パネルの上部にある **[Start a new conversation]** アイコンを選択します。
 
-1. コパイロットを調べて、ナレッジ ソースの使用方法を確認します。
+1. エージェントを調べて、ナレッジ ソースの使用方法を確認します。

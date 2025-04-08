@@ -1,25 +1,25 @@
 ---
 lab:
-  title: Microsoft Teams にコパイロットをデプロイする
-  module: Create a copilot with Microsoft Copilot Studio and Dataverse for Teams
+  title: Microsoft Teams にエージェントをデプロイする
+  module: Create an agent with Microsoft Copilot Studio and Dataverse for Teams
 ---
 
-# Microsoft Teams にコパイロットをデプロイする
+# Microsoft Teams にエージェントをデプロイする
 
 ## シナリオ
 
 このラボでは、次のことを行います。
 
-- コパイロット アクションを作成する
+- エージェント アクションを作成する
 
 ## 学習する内容
 
-- コパイロットを Microsoft Teams にデプロイする方法
+- Microsoft Teams にエージェントをデプロイする方法
 
 ## ラボ手順の概要
 
 - 公開
-- Microsoft Teams にコパイロットをデプロイする
+- Microsoft Teams にエージェントをデプロイする
   
 ## 前提条件
 
@@ -27,15 +27,15 @@ lab:
 
 ## 詳細な手順
 
-## 演習 1 - コパイロットを公開する
+## 演習 1 - エージェントを発行する
 
 ### タスク 1.1 - 最新のコンテンツを公開する
 
 1. Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、適切な環境にあることを確認します。
 
-1. 左側のナビゲーション ウィンドウから **[Copilot]** を選択します。
+1. 左側のナビゲーション ウィンドウから **[エージェント]** を選択します。
 
-1. 前のラボで作成したコパイロットを選択します。
+1. 前のラボで作成したエージェントを選択します。
 
 1. **[Publish]** を選択し、もう一度 **[Publish]** を選択します。
 
@@ -45,11 +45,11 @@ lab:
 
 ## 演習 2 - チャネル
 
-コパイロットを公開すると、Teams のユーザーが自分のコパイロットを使用できるようになります。 こうすることで、ユーザー、ユーザーのチームメイト、より広範な組織がユーザーのコパイロットとやり取りできます。
+エージェントを公開すると、Teams のユーザーがそのエージェントを使用できるようになります。 こうすることで、ユーザー、ユーザーのチームメイト、より広範な組織がユーザーのコパイロットとやり取りできます。
 
 ### タスク 2.1 - Microsoft Teams チャンネル
 
-1. Microsoft Copilot Studio で Copilot を開いた状態で、**[Channels]** タブを選択します。
+1. エージェントを Microsoft Copilot Studio で開いた状態で、**[Channels]** タブを選択します。
 
     ![[Channels] タブのスクリーンショット。](../media/channels.png)
 
@@ -95,6 +95,6 @@ lab:
 
     !["Add the app to Teams" ダイアログのスクリーンショット。](../media/teams-add-app.png)
 
-1. Copilot をテストする
+1. エージェントをテストする。
 
-    ![Copilot in Teams のスクリーンショット。](../media/teams-copilot.png)
+    ![Teams でのエージェントのスクリーンショット。](../media/teams-copilot.png)

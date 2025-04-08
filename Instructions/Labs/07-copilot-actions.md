@@ -1,6 +1,6 @@
 ---
 lab:
-  title: コパイロット アクションを作成する
+  title: エージェント アクションを作成する
   module: Enhance Microsoft Copilot Studio copilots
 ---
 
@@ -10,7 +10,7 @@ lab:
 
 このラボでは、次のことを行います。
 
-- コパイロット アクションを作成する
+- エージェント アクションを作成する
 
 ## 学習する内容
 
@@ -18,8 +18,8 @@ lab:
 
 ## ラボ手順の概要
 
-- Power Automate クラウド フローを作成して、Copilot アクションを使用して Dataverse データを取得する
-- Power Automate クラウド フローを作成して、Copilot アクションを使用して Dataverse データを作成する
+- Power Automate クラウド フローを作成して、エージェント アクションを使用して Dataverse データを取得する
+- Power Automate クラウド フローを作成して、エージェント アクションを使用して Dataverse データを作成する
   
 ## 前提条件
 
@@ -27,7 +27,7 @@ lab:
 
 ## 詳細な手順
 
-## 演習 1 - Copilot アクションを作成してDataverse からデータを取得する
+## 演習 1 - エージェント アクションを作成して Dataverse からデータを取得する
 
 Microsoft Copilot Studio は、Power Automate クラウド フローを使用して Microsoft Dataverse のデータにアクセスできます。
 
@@ -35,7 +35,7 @@ Microsoft Copilot Studio は、Power Automate クラウド フローを使用し
 
 1. Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、適切な環境にあることを確認します。
 
-1. 左側のナビゲーション ウィンドウから **[Copilot]** を選択します。
+1. 左側のナビゲーション ウィンドウから **[エージェント]** を選択します。
 
 1. 前のラボで作成した **[Real Estate Booking Service]** を選択します。
 
@@ -129,7 +129,7 @@ Microsoft Copilot Studio は、Power Automate クラウド フローを使用し
 
 1. 保存が完了するまで待ってから、[Power Automate] タブを閉じます。
 
-### タスク 1.2 - Copilot アクションを追加してプロパティを取得する
+### タスク 1.2 - エージェント アクションを追加してプロパティを取得する
 
 1. [Copilot Studio] ダイアログ ボックスから **[更新]** を選択して、新しいフローを表示します。
 
@@ -143,7 +143,7 @@ Microsoft Copilot Studio は、Power Automate クラウド フローを使用し
 
 1. **[完了]** を選択します。
 
-### タスク 1.3 - [プロパティを取得する] Copilot アクションをトピックに追加する
+### タスク 1.3 - [プロパティを取得する] エージェント アクションをトピックに追加する
 
 1. **[Topics]** タブを選択します。
 
@@ -169,7 +169,7 @@ Microsoft Copilot Studio は、Power Automate クラウド フローを使用し
 
 1. **[保存]** を選択します。
 
-## 演習 2 - Copilot アクションを作成して Dataverse でデータを作成する
+## 演習 2 - エージェント アクションを作成して Dataverse でデータを作成する
 
 Microsoft Copilot Studio では、Power Automate クラウド フローを使用して Microsoft Dataverse 内のデータを保存できます。
 
@@ -233,7 +233,7 @@ Microsoft Copilot Studio では、Power Automate クラウド フローを使用
 
 1. 保存が完了するまで待ってから、[Power Automate] タブを閉じます。
 
-### タスク 2.2 - 予約要求を作成する Copilot アクションを追加する
+### タスク 2.2 - 予約要求を作成するエージェント アクションを追加する
 
 1. [Copilot Studio] ダイアログ ボックスから **[更新]** を選択して、新しいフローを表示します。
 
@@ -245,7 +245,7 @@ Microsoft Copilot Studio では、Power Automate クラウド フローを使用
 
 1. **[完了]** を選択します。
 
-### タスク 2.3 - Create Booking Request Copilot アクションをトピックに追加する
+### タスク 2.3 - [Create Booking Request] エージェント アクションをトピックに追加する
 
 1. **[Topics]** タブを選択します。
 
@@ -265,7 +265,7 @@ Microsoft Copilot Studio では、Power Automate クラウド フローを使用
 
 1. **[Publish]** を選択し、もう一度 **[Publish]** を選択します。
 
-## 演習 3 - Copilot アクションをテストする
+## 演習 3 - エージェント アクションをテストする
 
 ### タスク 3.1 - 予約要求を行う
 
@@ -279,7 +279,7 @@ Microsoft Copilot Studio では、Power Automate クラウド フローを使用
 
 1. テスト パネルの上部にある **[Start a new conversation]** アイコンを選択します。
 
-1. **Conversation Start** メッセージが表示されたら、コパイロットによって会話が開始されます。 応答に、先に作成したトピックのトリガー フレーズを入力します。
+1. **会話の開始**メッセージが表示されたら、エージェントによって会話が開始されます。 応答に、先に作成したトピックのトリガー フレーズを入力します。
 
     `I want to book a real estate showing`
 

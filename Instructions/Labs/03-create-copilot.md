@@ -1,37 +1,37 @@
 ---
 lab:
-  title: 最初のコパイロットを構築する
-  module: Build an initial copilot with Microsoft Copilot Studio
+  title: 最初のエージェントを構築する
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
-# 最初のコパイロットを構築する
+# 最初のエージェントを構築する
 
 ## シナリオ
 
 このラボでは、次のことを行います。
 
-- コパイロットを作成し名前を付ける
-- コパイロットが行うべきタスクについての説明を追加する
+- エージェントを作成して名前を付ける
+- エージェントが行うべきタスクについての説明を追加する
 - 生成 AI の回答を構成する
 
 ## 学習する内容
 
-- 自然言語を使用してコパイロットを作成する方法
-- 生成 AI の回答をコパイロット用に構成する方法
+- 自然言語を使用してエージェントを作成する方法
+- 生成 AI の回答をエージェント用に構成する方法
 
 ## ラボ手順の概要
 
-- 新しいコパイロットを作成する
-- コパイロットの主な目的とどのように動作すべきかをコパイロットに伝える
+- 新しいエージェントを作成する
+- その主な目的が何であり、どのように動作すべきかをエージェントに伝えます。
 - 生成 AI への指示を構成する
   
 ## 前提条件
 
 - **ラボ: Dataverse ソリューションのインポート**を完了している必要があります
 
-## 演習 1 - コパイロットを作成する
+## 演習 1 - エージェントを作成する
 
-この演習では、Microsoft Copilot Studio ポータルの開発環境にアクセスし、新しいコパイロットを作成します。
+この演習では、Microsoft Copilot Studio ポータルの開発環境にアクセスし、新しいエージェントを作成します。
 
 ### タスク 1.1 - Microsoft Copilot Studio ポータル
 
@@ -41,7 +41,7 @@ lab:
 
 1. 適切な環境にいることを確認します。
 
-### タスク 1.2 - コパイロットを作成する
+### タスク 1.2 - エージェントを作成する
 
 1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[新しいエージェント]** タイルと **[構成のスキップ]** を選択します。
 
@@ -51,7 +51,7 @@ lab:
 
 1. **[Description]** テキスト ボックスに「**`Create bookings for real estate properties`**」と入力します。
 
-1. **[Instructions]** テキスト ボックスに「**`Create a copilot for topics relating to creating bookings for real estate properties`**」と入力します。
+1. **[Instructions]** テキスト ボックスに「**`Create an agent for topics relating to creating bookings for real estate properties`**」と入力します。
 
 1. 上部で、**[Language]** を **English (en-US)** に設定してください。
 
@@ -77,7 +77,7 @@ lab:
 
 ## 演習 2 - 生成 AI の回答を追加する
 
-この演習では、Microsoft Copilot Studio ポータルにアクセスし、コパイロットが生成 AI を使用して質問に回答するために使用する知識を追加します。
+この演習では、Microsoft Copilot Studio ポータルにアクセスし、エージェントが生成 AI を使用して質問に回答するために使用する知識を追加します。
 
 ### タスク 2.1 - 生成 AI の回答を有効にする
 
@@ -99,7 +99,7 @@ lab:
 
 1. **"Public website link"** テキスト ボックスに「**`https://create.microsoft.com/en-us/`**」と入力します。
 
-    ![CoPilot Studio ポータルで公開 Web サイトのリンクを追加します。](../media/add-website-knowledge-source.png)
+    ![Copilot Studio ポータルで公開 Web サイトのリンクを追加します。](../media/add-website-knowledge-source.png)
 
 1. **[追加]** を選択します。
 
@@ -107,7 +107,7 @@ lab:
 
 1. **[概要]** タブを選択します。
 
-    ![CoPilot Studio ポータルのカスタム コパイロット。](../media/copilot-studio-copilot2.png)
+    ![Copilot Studio ポータルのカスタム コパイロット。](../media/copilot-studio-copilot2.png)
 
 1. **[Test your agent]** ウィンドウの上部にある **[three dots]** を選択します。
 
