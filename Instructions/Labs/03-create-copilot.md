@@ -43,9 +43,7 @@ lab:
 
 ### タスク 1.2 - エージェントを作成する
 
-1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[新しいエージェント]** タイルと **[構成のスキップ]** を選択します。
-
-    ![Copilot Studio ポータルで作成する。](../media/create-copilot-agent.png)
+1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** タイルと **[構成のスキップ]** を選択します。
 
 1. **[Name]** テキスト ボックスに「**`Real Estate Booking Service`**」と入力します。
 
@@ -93,8 +91,6 @@ lab:
 
 1. **[+ Add knowledge]** を選択します。
 
-    ![Copilot Studio ポータルのナレッジ ソース。](../media/knowledge-sources.png)
-
 1. **[Public websites]** を選択する
 
 1. **"Public website link"** テキスト ボックスに「**`https://create.microsoft.com/en-us/`**」と入力します。
@@ -106,19 +102,16 @@ lab:
 1. **[追加]** を選択します。
 
 1. **[概要]** タブを選択します。
-
-    ![Copilot Studio ポータルのカスタム コパイロット。](../media/copilot-studio-copilot2.png)
-
+    
 1. **[Test your agent]** ウィンドウの上部にある **[three dots]** を選択します。
 
 1. **[Track between topics]** を有効にします。
 
     ![テスト パネル オプションのスクリーンショット。](../media/test-pane-options.png)
 
-1. **エージェントのテスト** ウィンドウの上部で、**X** の横にある **[Start a new conversation]** アイコン (更新アイコン) を選択します。
-
+1. **[Test your agent]** ウィンドウの上部で、**[Start a new conversation]** アイコン (更新アイコン) を選択します。
     ![テスト パネル オプションのスクリーンショット。](../media/copilot-test-pane-start-new-conversation.png)
 
-1. **"Type your message"** テキスト ボックスに、「**`How do I boost real estate promotion?`**」を入力します。
+1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`How do I boost real estate promotion?`**」と入力します。
 
     ![テスト パネル結果のスクリーンショット。](../media/test-pane-results.png)

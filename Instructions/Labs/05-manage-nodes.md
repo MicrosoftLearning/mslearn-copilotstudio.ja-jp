@@ -33,7 +33,7 @@ lab:
 
 ### タスク 1.1 - 変数のスコープを構成する
 
-1. Microsoft Copilot Studio ポータル `https://studio.microsoft.com` に移動し、適切な環境にあることを確認します。
+1. Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、適切な環境にあることを確認します。
 
 1. 画面の右上にある **[Test]** ボタンを選択して、パネルが開いている場合はテスト パネルを閉じます。
 
