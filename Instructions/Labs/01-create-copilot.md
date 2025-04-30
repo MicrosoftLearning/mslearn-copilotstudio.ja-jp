@@ -29,7 +29,7 @@ lab:
 
 1. 左側のナビゲーション ウィンドウで **[Create]** を選択して、次のような、新しいエージェントを作成できるページを表示します。
 
-    ![Copilot Studio の [Create] ページのスクリーンショット。](media/create-copilot.png)
+    ![Copilot Studio の [Create] ページのスクリーンショット。](media/create-copilot-agent.png)
 
     完全に新しいエージェントを作成することも、テンプレートを出発点にすることもできます。 この演習では、まったく新しいエージェントを作成します。
 
@@ -112,15 +112,17 @@ lab:
 1. **[Topics]** ページに戻り、**[System]** トピックを表示します。 これらには、会話内の一般的なイベントに関するトピックが含まれることに注意します。 具体的には、次のシステム トピックに注意します。
     - **会話強化**: このトピックは、エージェントが対応するトピックを識別できないメッセージ (ユーザーの *意図* が不明) をユーザーが送信したときにトリガーされます。 次に、このトピックでは、生成 AI を使用してユーザーのメッセージへの応答を試みます。
     - **フォールバック**: このトピックは、意図が不明で、適切な会話型 AI 応答を生成できない場合に応答する "フェールセーフ" トピックです。 フォールバック トピックには、ユーザーが会話を正常に終了する前に最大 3 回再試行できるようにするロジックが含まれています。多くの場合、人間のオペレーターにエスカレートします。
-1. **[Topics]** ページに戻り、**[+ Add a topic]** メニューで、**[Topic**\>**Create from description with copilot]** を選択します。
+1. **[Topics]** ページに戻り、**[+ Add a topic]** メニューで、**[Topic**\>**Create from description with Copilot]** を選択します。
 
-1. **"Create a description with copilot"** ダイアログ ボックスで、新しいトピックに `Ask about expenses contact` という名前を付け、次のテキストを入力して、トピックの内容をコパイロットに伝えます。
+1. **[Create a description with Copilot]** ダイアログ ボックスで、新しいトピックに `Ask about expenses contact` という名前を付け、次のテキストを入力して、トピックの内容を Copilot に伝えます。
 
     ```prompt
     When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
 
 1. **［作成］** を選択します
+
+1. メッセージが表示されたら、**[クリップボードにコピーされたテキストと画像の表示を****許可]** を選択します。
 
 1. しばらく待つと、*"Ask about expenses contact"* という名前の新しいトピックが作成され、作成キャンバスで開かれます。作成キャンバスでは、次のようになります。
 
@@ -182,7 +184,7 @@ lab:
 1. ページの上部にある **設定** を選択します。
 1. **[Security]** ページの **[Settings]** ペインで、**[Authentication]** を選択します。 次に、**[No authentication]** のオプションを選択し、構成に対する変更を **[保存]** します (すべてのユーザーに対してエージェントへのアクセスを有効にすることを確定します)。
 1. **[Settings]** ペインを閉じます。 次に、**[Channels]** ページを表示します。
-1. ページ上部にある **[Publish]** を選択します。 次に、**[Publish]** ページで **[Publish]** を選択し、エージェントを公開します。 公開には 1 分ほどかかります。
+1. ページ上部にある **[Publish]** を選択します。 次に、**[Publish]** ページで **[Publish]** を選択します。 公開には 1 分ほどかかります。
 1. エージェントが公開されたら、**[Channels]** ページの **[Publish status]** を確認します。
 
     ![Copilot Studio の [Channels] ページのスクリーンショット。](media/channels-page.png)
