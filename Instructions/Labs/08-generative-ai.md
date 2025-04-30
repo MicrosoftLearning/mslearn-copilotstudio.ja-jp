@@ -112,7 +112,6 @@ lab:
 ### タスク 2.2 - ファイルからナレッジを追加する
 
 1. この [**Microsoft のケース スタディ**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx)または [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) を GitHub からダウンロードします。
-> ℹ️**注:** Microsoft ケース スタディへのリンクはこちらです。`https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
 1. **[+ Add knowledge]** を選択します。
 
