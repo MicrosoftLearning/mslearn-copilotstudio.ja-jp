@@ -43,7 +43,7 @@ lab:
 
 ### タスク 1.2 - エージェントを作成する
 
-1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** タイルと **[構成のスキップ]** を選択します。
+1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** と **[構成のスキップ]** を選択します。
 
 1. **[Name]** テキスト ボックスに「**`Real Estate Booking Service`**」と入力します。
 
@@ -102,7 +102,7 @@ lab:
 1. **[追加]** を選択します。
 
 1. **[概要]** タブを選択します。
-    
+
 1. **[Test your agent]** ウィンドウの上部にある **[three dots]** を選択します。
 
 1. **[Track between topics]** を有効にします。
@@ -110,6 +110,7 @@ lab:
     ![テスト パネル オプションのスクリーンショット。](../media/test-pane-options.png)
 
 1. **[Test your agent]** ウィンドウの上部で、**[Start a new conversation]** アイコン (更新アイコン) を選択します。
+
     ![テスト パネル オプションのスクリーンショット。](../media/copilot-test-pane-start-new-conversation.png)
 
 1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`How do I boost real estate promotion?`**」と入力します。

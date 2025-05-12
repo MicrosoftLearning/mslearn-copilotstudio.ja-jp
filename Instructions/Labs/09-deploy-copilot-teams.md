@@ -38,9 +38,6 @@ lab:
 1. 前のラボで作成したエージェントを選択します。
 
 1. **[Publish]** を選択し、もう一度 **[Publish]** を選択します。
-
-   ![発行ダイアログのスクリーンショット。](../media/copilot-publish.png)
-
    > **注:** 公開には数分かかる場合があります。
 
 ## 演習 2 - チャネル
@@ -51,21 +48,15 @@ lab:
 
 1. エージェントを Microsoft Copilot Studio で開いた状態で、**[Channels]** タブを選択します。
 
-    ![[Channels] タブのスクリーンショット。](../media/channels.png)
+1. **[Teams と Microsoft 365 Copilot]** タイルを選択します。
 
-1. **Microsoft Teams** タイルを選択します。
-
-    ![[Teams] ダイアログのスクリーンショット。](../media/teams-enable.png)
-
-1. **Teams を有効にする**を選択します。
-
-    ![Team チャネル ダイアログのスクリーンショット。](../media/teams-channel.png)
+1. **[チャネルを追加]** を選択します。
 
 1. **利用可能オプション**を選択します。
 
     ![Teams チャネルの可用性オプションのスクリーンショット。](../media/teams-availability-options.png)
 
-1. **[Copy link]** を選択します。
+1. **リンクのコピー**を選択します。
 
 1. **チームメイトと共有ユーザーに表示する**を選択します。
 
@@ -73,19 +64,7 @@ lab:
 
 1. ウィンドウの左上隅にある戻る矢印ボタンを選択します。
 
-1. **[共有]** を選択します。
-
-### タスク 2.2 - Microsoft Teams
-
-1. 別のタブで、Microsoft Teams `https://teams.microsoft.com` に移動します。
-
-1. プロンプトが表示されたら、Teams にサインインします。
-
-1. 左側のナビゲーションで、**[Teams]** を選択します。
-
-1. **[General]** チャネルを持つ **Contoso** という名前のチームが表示されます。
-
-1. 新しいタブを開き、前のタスクでコピーした URL リンクに移動します。
+1. **[Teams でエージェントを表示する]** を選択します。
 
 1. **"This site is trying to open Microsoft Teams"** ダイアログ ボックスで **[Cancel]** を選択します。
 

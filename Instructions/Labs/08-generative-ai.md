@@ -103,19 +103,15 @@ lab:
 
     ![Web サイトのナレッジを追加するスクリーンショット。](../media/add-dataverse-knowedge-step1.png)
 
-1. [**次へ**] を選択します。
-
-1. [**次へ**] を選択します。
-
 1. **[追加]** を選択します。
 
 ### タスク 2.2 - ファイルからナレッジを追加する
 
 1. この [**Microsoft のケース スタディ**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx)または [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) を GitHub からダウンロードします。
 
-1. **[+ Add knowledge]** を選択します。
+> ℹ️**注:** Microsoft ケース スタディへのリンクはこちらです。`https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
 
-1. **[ファイル]** を選択します。
+1. **[+ Add knowledge]** を選択します。
 
 1. **[Upload files]** で、ダウンロードしたケース スタディを参照して選択します。
 
@@ -139,7 +135,7 @@ lab:
 
 1. **Condition** ノードの **+** アイコン、**[Advanced]** の順に選択してから、**[Generative answers]** を選択します。
 
-1. **"Input"** フィールドの **[Activity.Text]** を選択します。
+1. **[System]** タブを選択し、**[Input]** フィールドの **[Activity.Text]** を選択します。
 
 1. **[Data sources]** の **[Edit]** を選択します。
 
