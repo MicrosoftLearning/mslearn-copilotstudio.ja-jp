@@ -87,7 +87,7 @@ lab:
 
 1. **Copilot で編集**パネルで、**何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
-    `Update the message in this Question node to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. **[更新]** を選択します。
 
