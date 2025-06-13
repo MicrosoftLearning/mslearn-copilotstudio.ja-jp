@@ -8,11 +8,13 @@ lab:
 
 ## シナリオ
 
-このラボでは、次のことを行います。
+この演習では、次のことを行います。
 
 - 既存のトピックを管理する
 - 自然言語を使用してトピックを作成および編集する
 - トリガー フレーズを使用してトピックを手動で作成する
+
+この演習の所要時間は約 **30** 分です。
 
 ## 学習する内容
 
@@ -20,7 +22,6 @@ lab:
 
 ## ラボ手順の概要
 
-- サンプル トピックを削除する
 - トピックを無効にする
 - 自然言語でトピックを新規作成および編集する
 - 新しいトピックを作成しトリガー フレーズを追加する
@@ -87,7 +88,7 @@ lab:
 
 1. **Copilot で編集**パネルで、**何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
-    `Replace "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
+    `Change "What is your email address?" to say thank you to the Name variable from the previous node and then proceed to ask the email address question.`
 
 1. **[更新]** を選択します。
 
@@ -95,7 +96,7 @@ lab:
 
     ![Name 変数を含むように更新されたメッセージのスクリーンショット。](../media/message-updated-name-variable.png)
 
-    > **注**: メッセージは、先ほどのノードの *Name* 変数を含むように更新されるはずです。上記のスクリーンショットのようになります。
+    > **注**: メッセージは、先ほどのノードの *Name* 変数を含むように更新されるはずです。上記のスクリーンショットのようになります。 [コパイロットで編集する] で質問ノードが正しく更新されなかった場合は、[元に戻す] を選択し、別のプロンプトでもう一度試します。
 
 1. **[保存]** を選択します。
 

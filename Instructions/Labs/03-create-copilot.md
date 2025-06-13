@@ -1,18 +1,20 @@
 ---
 lab:
   title: 最初のエージェントを構築する
-  module: Build an initial agent with Microsoft Copilot Studio
+  module: Manage topics in Microsoft Copilot Studio
 ---
 
 # 最初のエージェントを構築する
 
 ## シナリオ
 
-このラボでは、次のことを行います。
+この演習では、次のことを行います。
 
 - エージェントを作成して名前を付ける
 - エージェントが行うべきタスクについての説明を追加する
 - 生成 AI の回答を構成する
+
+この演習の所要時間は約 **15** 分です。
 
 ## 学習する内容
 
@@ -61,7 +63,7 @@ lab:
 
 1. **[Solution]** で **[Bookings]** を選択します。
 
-1. **[Schema Name]** に「`labcopilot`」と入力します。
+1. **[Schema Name]** に「`labagent`」と入力します。
 
     ![Copilot Studio ポータルの詳細設定。](../media/copilot-studio-advanced-settings.png)
 
@@ -77,13 +79,19 @@ lab:
 
 この演習では、Microsoft Copilot Studio ポータルにアクセスし、エージェントが生成 AI を使用して質問に回答するために使用する知識を追加します。
 
-### タスク 2.1 - 生成 AI の回答を有効にする
+### タスク 2.1 - 生成オーケストレーションを無効にする
+
+1. **[概要]** タブで、**[ユーザーやイベントに最適な応答方法を、生成 AI を使用して決定します。]** が  **[無効]** に設定されていることを確認します (**[詳細]** セクション内)。
+
+    ![生成オーケストレーションが無効になっている](../media/settings-generative-ai-1.png)
+
+### タスク 2.2 - 生成 AI の回答を有効にする
 
 1. **[Overview]** タブの **[Knowledge]** セクション内で、**[Allow the AI to use its own general knowledge]** が **[Enabled]** に設定されていることを確認します。
 
     ![Copilot Studio ポータルで有効になっているナレッジ。](../media/knowledge-enabled.png)
 
-### タスク 2.2 - ナレッジ ソースを追加する
+### タスク 2.3 - ナレッジ ソースを追加する
 
 1. **[Knowledge]** タブを選択します。
 

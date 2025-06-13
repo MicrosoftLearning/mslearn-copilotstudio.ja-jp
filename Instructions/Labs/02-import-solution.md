@@ -1,14 +1,16 @@
 ---
 lab:
   title: Dataverse ソリューションをインポートする
-  module: Course Introduction
+  module: Build an initial agent with Microsoft Copilot Studio
 ---
 
 # Dataverse ソリューションをインポートする
 
 この演習では、次のラボに使用する Dataverse ソリューションをインポートします。
 
-> **注**: この演習では、既に Copilot Studio ライセンスを所有しているか、[無料試用版](https://go.microsoft.com/fwlink/p/?linkid=2252605)にサインアップしており Power Apps 環境を使用していることを前提としています。
+この演習の所要時間は約 **10** 分です。
+
+> **注**: この演習では、既に Copilot Studio ライセンスを所有しているか、[無料試用版](https://go.microsoft.com/fwlink/p/?linkid=2252605)にサインアップしており Power Platform 環境を使用していることを前提としています。
 
 ## 演習 1 – ソリューションをインポートする
 

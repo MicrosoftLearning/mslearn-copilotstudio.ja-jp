@@ -1,16 +1,18 @@
 ---
 lab:
   title: Microsoft Copilot Studio で生成 AI を使用する
-  module: Enhance Microsoft Copilot Studio copilots
+  module: Enhance Microsoft Copilot Studio agents
 ---
 
 # Microsoft Copilot Studio で生成 AI を使用する
 
 ## シナリオ
 
-このラボでは、次のことを行います。
+この演習では、次のことを行います。
 
-- エージェント アクションを作成する
+- エージェントでナレッジと生成 AI を使用する
+
+この演習の所要時間は約 **30** 分です。
 
 ## 学習する内容
 
@@ -41,9 +43,9 @@ lab:
 
 1. **[Generative AI]** タブを選択します。
 
-1. **[How should your agent interact with people?]** の下の **[Generative]** を選択します。
+1. **"How should your agent interact with people?"** の下の **[Generative]** を選択します。
 
-1. **"How strict should the content moderation be?"** には、**[Medium - More Balanced]** を選択します。
+1. **"どの程度厳格にコンテンツ モデレーションを行いますか?"** では、**[中 - バランスを重視]** を選択します。
 
 1. **[保存]** を選択します。
 
@@ -113,7 +115,7 @@ lab:
 
 1. **[+ Add knowledge]** を選択します。
 
-1. **[Upload files]** で、ダウンロードしたケース スタディを参照して選択します。
+1. **[ファイルのアップロード]** で、ダウンロードしたケース スタディを参照して選択します。
 
     ![ファイルのナレッジの追加のスクリーンショット。](../media/add-file-knowledge.png)
 
@@ -163,7 +165,7 @@ lab:
 
     ![テスト パネルでの会話マップのスクリーンショット。](../media/test-pane-conversation-map.png)
 
-1. **[On]** を選択します。
+1. **[ON]** を選択します。
 
 1. テスト パネルの上部にある **[Start a new conversation]** アイコンを選択します。
 
