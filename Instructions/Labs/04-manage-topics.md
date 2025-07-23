@@ -40,8 +40,6 @@ lab:
 
 1. Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、適切な環境にあることを確認します。
 
-1. 画面の右上にある **[Test]** ボタンを選択して、パネルが開いている場合はテスト パネルを閉じます。
-
 1. 左側のナビゲーション ウィンドウから **[エージェント]** を選択します。
 
     ![Copilot Studio ポータルでのエージェント。](../media/copilot-studio-copilots.png)
@@ -49,8 +47,6 @@ lab:
 1. 前のラボで作成したエージェントを選択します。
 
 1. **[Topics]** タブを選択します。
-
-    ![Copilot Studio ポータルの [Topics] タブ。](../media/topics-tab.png)
 
 1. **[Start Over]** トピックの **[Enabled]** を **[Off]** に切り替えます。
 
@@ -78,11 +74,11 @@ lab:
 
 ### タスク 2.2 - 自然言語でノードを更新する
 
-1. **[Customer Details]** ペインの右側に **[Edit with CoPilot]** ペインが表示されない場合は、作成キャンバスの上部にある**コパイロット** アイコンを選択します。
+1. **[Customer Details]** ペインの右側に **[Edit with CoPilot]** ペインが表示されない場合は、作成キャンバスの上部にある**Copilot** アイコンを選択します。
 
     ![[Copilot で編集] アイコンのスクリーンショット。](../media/edit-with-copilot.png)
 
-1. 2 番目の **[Question]** ノードである **[What is your email address?]** を選択します。
+1. 2 番目の **[質問]** ノードである **[What is your email address?]** を選択します。
 
     ![[Copilot で編集] アイコンのスクリーンショット。](../media/copilot-email-address-node.png)
 
@@ -104,7 +100,7 @@ lab:
 
 既存のノードを更新する他に、Copilotを 使用して新しいノードを追加できます。
 
-1. ノードの周りにある空き領域を選択して、ノードが選択されていないことを確認します。
+1. 作成キャンバス内の空白部分を選択して、ノードが選択されていないことを確認します。
 
 1. **Copilot で編集**パネルで、**何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
@@ -155,9 +151,9 @@ lab:
     }
     ```
 
-1. アダプティブ カードのプロパティを開くと **[Edit with Copilot]** パネルが閉じるため、**[Copilot]** アイコンを選択してもう一度開く必要があります。
+1. **Copilot** アイコンを選択して、**[Copilot で編集]** ペインを再度開きます。
 
-1. ノードの周りにある空き領域を選択して、ノードが選択されていないことを確認します。
+1. 作成キャンバス内の空白部分を選択して、ノードが選択されていないことを確認します。
 
 1. **何の操作を実行しますか?** フィールドに、次のテキストを入力します。
 
@@ -165,17 +161,17 @@ lab:
 
 1. **[更新]** を選択します。
 
-1. トピックの末尾に、ユーザーが選択できるオプションを含む新しい質問ノードが追加されます。
+トピックの末尾に、ユーザーが選択できるオプションを含む新しい質問ノードが追加されます。
 
-    ![はい/いいえのオプションを含む新しい質問ノードのスクリーンショット。](../media/new-question-node.png)
+    ![Screenshot of the new question node with yes and no options.](../media/new-question-node.png)
 
 1. **[保存]** を選択します。
 
 ### タスク 2.4 - トピックをテストする
 
-1. 画面の右上にある **[Test]** ボタンを選択して、テスト パネルが閉じている場合は開きます。
+1. **[エージェントのテスト]** パネルが閉じている場合は、パネルの右上にある **[テスト]** ボタンを選択します。
 
-1. テスト パネルの上部にある **[Start a new conversation]** アイコンを選択します。
+1. テスト パネルの上部にある **[新しい会話を開始する]** (更新) アイコンを選択します。
 
 1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`Customer information`**」と入力します。
 
@@ -213,18 +209,18 @@ lab:
 
 ### タスク 3.2 - トリガー フレーズを追加する
 
-1. **[トリガー]** の **[フレーズ]** で **[編集]** を選択します。
+1. **[トリガー]** の **[ユーザーがフレーズを言う]** の下の **[編集]** を選択します。
 
     ![トピック トリガー フレーズのウィンドウのスクリーンショット。](../media/topic-trigger-phrases.png)
 
-1. **[Add Phrases]** に「`I want to book a real estate showing`」と入力し、**[+]** アイコンを選択します。
+1. **[フレーズの追加]** に「`I want to book a real estate showing`」と入力し、**+** アイコンを選択します。
 
-1. **[Add Phrases]** に「`Schedule a real estate showing`」と入力し、**[+]** アイコンを選択します。
+1. **[フレーズの追加]** に「`Schedule a real estate showing`」と入力し、**+** アイコンを選択します。
 
-1. **[Add Phrases]** に「`Arrange the viewing for a real estate property`」と入力し、**[+]** アイコンを選択します。
+1. **[フレーズの追加]** に「`Arrange the viewing for a real estate property`」と入力し、**+** アイコンを選択します。
 
-1. **[Add Phrases]** に「`Set up an appointment to view a house`」と入力し、**[+]** アイコンを選択します。
+1. **[フレーズの追加]** に「`Set up an appointment to view a house`」と入力し、**+** アイコンを選択します。
 
-1. **[Add Phrases]** に「`Plan a property viewing`」と入力し、**[+]** アイコンを選択します。
+1. **[フレーズの追加]** に「`Plan a property viewing`」と入力し、**+** アイコンを選択します。
 
 1. **[保存]** を選択します。

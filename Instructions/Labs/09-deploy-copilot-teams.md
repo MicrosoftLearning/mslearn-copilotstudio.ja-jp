@@ -58,23 +58,17 @@ lab:
 
     ![Teams チャネルの可用性オプションのスクリーンショット。](../media/teams-availability-options.png)
 
-1. **リンクのコピー**を選択します。
-
-1. ウィンドウの左上隅にある戻る矢印ボタンを選択します。
-
 1. **[Teams でエージェントを表示する]** を選択します。
 
 1. **"This site is trying to open Microsoft Teams"** ダイアログ ボックスで **[Cancel]** を選択します。
 
-1. **[代わりに Web アプリを使用]** を選択します。
+1. ポップアップで **[キャンセル]** を選択し、**[代わりに Web アプリを使用する]** を選択します。
 
-1. **[追加]** を選択します。
+1. **[追加]** を選択してエージェントを Teams に追加します。
 
     !["Add the app to Teams" ダイアログのスクリーンショット。](../media/teams-add-app.png)
 
-1. Microsoft Teams の左側のレールで、**省略記号 (...)** を選択して、その他のアプリを表示し、**Real Estate** を検索します。
-
-1. **Real Estate Booking Service** を選択します。
+1. **[開く]** を選択します。 
 
 1. エージェントをテストする。
 

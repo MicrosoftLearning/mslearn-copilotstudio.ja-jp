@@ -113,13 +113,14 @@ lab:
 1. **[Topics]** ページに戻り、**[System]** トピックを表示します。 これらには、会話内の一般的なイベントに関するトピックが含まれることに注意します。 具体的には、次のシステム トピックに注意します。
     - **会話強化**: このトピックは、エージェントが対応するトピックを識別できないメッセージ (ユーザーの *意図* が不明) をユーザーが送信したときにトリガーされます。 次に、このトピックでは、生成 AI を使用してユーザーのメッセージへの応答を試みます。
     - **フォールバック**: このトピックは、意図が不明で、適切な会話型 AI 応答を生成できない場合に応答する "フェールセーフ" トピックです。 フォールバック トピックには、ユーザーが会話を正常に終了する前に最大 3 回再試行できるようにするロジックが含まれています。多くの場合、人間のオペレーターにエスカレートします。
-1. **[Topics]** ページに戻り、**[+ Add a topic]** メニューで、**[Topic**\>**Create from description with Copilot]** を選択します。
+1. **[トピック]** ページに戻り、**[+ トピックの追加]** メニューで、**[トピック]** \> **[Copilot を使用して説明から追加]** を選択します。
 
-1. **[Copilot で説明をもとに作成する]** ダイアログ ボックスで、新しいトピックに `Ask about expenses contact` という名前を付け、次のテキストを入力して、トピックの内容を Copilot Studio に伝えます。
+1. **[Copilot を使用して説明から追加]** ダイアログ ボックスで、新しいトピックに `Ask about expenses contact` という名前を付け、次のテキストを入力して、トピックの内容を Copilot Studio に伝えます。
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
     ```
+    > **注**:Copilot の結果は一定ではないため、期待する結果を得るには、このプロンプトをいろいろと試してみる必要があります。 
 
 1. **［作成］** を選択します
 

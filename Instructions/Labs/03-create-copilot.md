@@ -39,8 +39,6 @@ lab:
 
 1. 新しいタブで、Microsoft Copilot Studio ポータル `https://copilotstudio.microsoft.com` に移動し、もう一度メッセージが表示されたら、Microsoft 365 の資格情報でサインインします。
 
-1. メッセージが表示されたら、**[無料試用版の開始]** を選択します。
-
 1. 適切な環境にいることを確認します。
 
 ### タスク 1.2 - エージェントを作成する
@@ -71,7 +69,7 @@ lab:
 
 1. 画面の右上で **[Create]** を選択します。
 
-1. 右側の **[Test your agent]** ペインに「**`How do I make a booking?`**」と入力します。 応答を表示します。
+1. 右側の **[エージェントのテスト]** ペインで「**`How do I make a booking?`**」と入力して応答を表示します。
 
 このウィンドウは開いたままにします。
 
@@ -81,17 +79,11 @@ lab:
 
 ### タスク 2.1 - 生成オーケストレーションを無効にする
 
-1. **[概要]** タブで、**[ユーザーやイベントに最適な応答方法を、生成 AI を使用して決定します。]** が  **[無効]** に設定されていることを確認します (**[詳細]** セクション内)。
+1. **[概要]** タブで、**[ユーザーやイベントに最適な応答方法を、生成 AI を使用して決定します。]** が  **[無効]** に設定されていることを確認します (**[詳細]** セクション内)。 これにより、このラボの目的に合わせてオーケストレーションが無効になります。
 
     ![生成オーケストレーションが無効になっている](../media/settings-generative-ai-1.png)
 
-### タスク 2.2 - 生成 AI の回答を有効にする
-
-1. **[Overview]** タブの **[Knowledge]** セクション内で、**[Allow the AI to use its own general knowledge]** が **[Enabled]** に設定されていることを確認します。
-
-    ![Copilot Studio ポータルで有効になっているナレッジ。](../media/knowledge-enabled.png)
-
-### タスク 2.3 - ナレッジ ソースを追加する
+### タスク 2.2 - ナレッジ ソースを追加する
 
 1. **[Knowledge]** タブを選択します。
 
@@ -121,6 +113,6 @@ lab:
 
     ![テスト パネル オプションのスクリーンショット。](../media/copilot-test-pane-start-new-conversation.png)
 
-1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`How do I boost real estate promotion?`**」と入力します。
+1. **[Ask a question or describe what you need]** テキスト ボックスに、「**`How do I boost real estate promotion?`**」と入力します。 応答を表示します。 
 
     ![テスト パネル結果のスクリーンショット。](../media/test-pane-results.png)
