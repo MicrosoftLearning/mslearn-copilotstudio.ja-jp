@@ -118,7 +118,7 @@ lab:
 1. **[Copilot を使用して説明から追加]** ダイアログ ボックスで、新しいトピックに `Ask about expenses contact` という名前を付け、次のテキストを入力して、トピックの内容を Copilot Studio に伝えます。
 
     ```prompt
-    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com
+    When the user asks who to contact about expense claims, tell them to send an email to finance@contoso.com.
     ```
     > **注**:Copilot の結果は一定ではないため、期待する結果を得るには、このプロンプトをいろいろと試してみる必要があります。 
 
