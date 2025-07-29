@@ -68,7 +68,7 @@ lab:
 
     !["Add the app to Teams" ダイアログのスクリーンショット。](../media/teams-add-app.png)
 
-1. **[開く]** を選択します。 
+1. **[Open]** を選択します。
 
 1. エージェントをテストする。
 
