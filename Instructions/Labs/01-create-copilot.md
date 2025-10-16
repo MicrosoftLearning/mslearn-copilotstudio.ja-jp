@@ -16,7 +16,7 @@ lab:
 
 まず、Copilot Studio を使用して新しいエージェントを作成しましょう。 エージェントの機能は最初は非常に限られていますが、この演習で後ほど拡張します。
 
-1. Web ブラウザーで、[Copilot Studio](https://copilotstudio.microsoft.com/) (`https://copilotstudio.microsoft.com/`) に移動し、メッセージが表示されたら、職場または学校アカウントでサインインします。 ウェルカム メッセージはスキップします。
+1. Web ブラウザーで、**Copilot Studio** (`https://copilotstudio.microsoft.com/`) に移動し、メッセージが表示されたら、職場または学校アカウントでサインインします。 ウェルカム メッセージはスキップします。
 
     > **注:** 初めて Copilot Studio を開くと、初めてのエージェントを作成するためのチャット インターフェイスが表示されることがあります。 その場合は、右上の **[...]** メニュー (**[Create]** ボタンの横) をクリックし、**[Cancel agent creation]** を選択してチャット インターフェイスを終了し、Copilot Studio ホーム ページを表示します。
 
