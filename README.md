@@ -1,3 +1,5 @@
+**⚠️ This GitHub repo will retire on 31st October 2025.**
+
 # Copilot Studio 演習
 
 **あなたは MCT ですか?** - [MCT 向けの GitHub ユーザー ガイド](https://microsoftlearning.github.io/MCT-User-Guide/)をご覧ください
