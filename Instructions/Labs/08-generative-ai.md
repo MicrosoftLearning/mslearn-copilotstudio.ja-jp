@@ -41,7 +41,11 @@ lab:
 
 1. 画面の右上隅にある **[Settings]** ボタンを選択します。
 
-1. **[詳細]** セクションで、オーケストレーションを **[有効]** にします。
+1. **[詳細]** セクションで、オーケストレーションを **[はい]** にします。
+
+1. **[保存]** を選択します。
+
+1. 設定ウィンドウを閉じます。
 
 ### タスク 1.2 - 会話強化トピックで生成型回答を使用する
 
@@ -55,7 +59,7 @@ lab:
 
 ### タスク 1.3 - 認証を構成する
 
-1. 画面の右上にある省略記号 (**[...]**) > **[設定]** の順に選択します。
+1. 画面の右上にある **[Settings]** を選択します。
 
 1. **[セキュリティ]** タブをクリックします。
 
@@ -67,7 +71,7 @@ lab:
 
 1. **[保存]** を選択します。
 
-1. Copilot Studio の右上にある **[X]** を選択して、**[Settings]** メニューを閉じます。
+1. 設定ウィンドウを閉じます。
 
 1. **[Publish]** を選択し、もう一度 **[Publish]** を選択します。
 
@@ -85,13 +89,11 @@ lab:
 
     ![Web サイトのナレッジを追加するスクリーンショット。](../media/add-dataverse-knowedge-step1.png)
 
-1. **[追加]** を選択します。
+1. **[エージェントへの追加]** を選択します。
 
 ### タスク 2.2 - ファイルからナレッジを追加する
 
-1. この [**Microsoft のケース スタディ**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx)または [**SummitRealtyCaseStudy.docx**](../../Allfiles/SummitRealtyCaseStudy.docx) を GitHub からダウンロードします。
-
-> ℹ️**注:** Microsoft ケース スタディへのリンクはこちらです。`https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx`
+1. 新しいウィンドウを開き、`https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx` に移動して、[**Microsoft ケース スタディ**](https://download.microsoft.com/documents/customerevidence/Files/4000007499/SummitRealtyCaseStudy.docx) ファイルをダウンロードします。
 
 1. **[+ Add knowledge]** を選択します。
 
@@ -99,7 +101,7 @@ lab:
 
     ![ファイルのナレッジの追加のスクリーンショット。](../media/add-file-knowledge.png)
 
-1. **[追加]** を選択します。
+1. **[エージェントへの追加]** を選択します。
 
     ![ナレッジのスクリーンショット。](../media/knowledge-added.png)
 
@@ -117,7 +119,7 @@ lab:
 
 1. **Condition** ノードの **+** アイコン、**[Advanced]** の順に選択してから、**[Generative answers]** を選択します。
 
-1. **[System]** タブを選択し、**[Input]** フィールドの **[Activity.Text]** を選択します。
+1. **[入力]** フィールドで **[システム]** タブを選択し、**[Activity.Text]** を選択します。
 
 1. **[Data sources]** の **[Edit]** を選択します。
 
@@ -138,12 +140,6 @@ lab:
 ### タスク 4.1 エージェントの知識をテストする
 
 1. 開かない場合は、画面の右上にある **[Test]** ボタンを選択してテスト パネルを開きます。
-
-1. 画面の右上のテスト パネルの上部にある **[Conversation map]** アイコンを選択します。
-
-    ![テスト パネルでの会話マップのスクリーンショット。](../media/test-pane-conversation-map.png)
-
-1. **[ON]** を選択します。
 
 1. テスト パネルの上部にある **[Start a new conversation]** アイコンを選択します。
 

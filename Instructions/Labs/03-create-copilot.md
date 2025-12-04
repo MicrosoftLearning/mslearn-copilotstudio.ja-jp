@@ -43,7 +43,9 @@ lab:
 
 ### タスク 1.2 - エージェントを作成する
 
-1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、右上の **[+ 新しいエージェント]** と **[構成のスキップ]** を選択します。
+1. 左側のナビゲーション ウィンドウで **[作成]** を選択し、**[+ 新しいエージェント]** を選択します。
+
+1. **[構成]** タブをクリックします。
 
 1. **[Name]** テキスト ボックスに「**`Real Estate Booking Service`**」と入力します。
 
@@ -51,13 +53,7 @@ lab:
 
 1. **[Instructions]** テキスト ボックスに「**`Create an agent for topics relating to creating bookings for real estate properties`**」と入力します。
 
-1. 上部で、**[Language]** を **English (en-US)** に設定してください。
-
-    ![Copilot エージェント言語。](../media/copilot-agent-language.png)
-
-1. ページの右上にある **3 つのドット**を選択し、**[Edit advanced settings]** を選択します。
-
-    ![Copilot Studio ポータルのその他のオプション。](../media/copilot-studio-more-options-2.png)
+1. 省略記号 (**[...]**) を選択し、**[詳細設定の更新]** を選択します。
 
 1. **[Solution]** で **[Bookings]** を選択します。
 
@@ -65,9 +61,9 @@ lab:
 
     ![Copilot Studio ポータルの詳細設定。](../media/copilot-studio-advanced-settings.png)
 
-1. **[保存]** を選択します。
+1. **[更新]** を選択します。
 
-1. 画面の右上で **[Create]** を選択します。
+1. 画面の右上で **[Create]** を選択します。 エージェントの設定が完了するまで待ちます。
 
 1. 右側の **[エージェントのテスト]** ペインで「**`How do I make a booking?`**」と入力して応答を表示します。
 
@@ -99,7 +95,7 @@ lab:
 
 1. **[追加]** を選択します。
 
-1. **[追加]** を選択します。
+1. **[エージェントへの追加]** を選択します。
 
 1. **[概要]** タブを選択します。
 
@@ -109,7 +105,7 @@ lab:
 
     ![テスト パネル オプションのスクリーンショット。](../media/test-pane-options.png)
 
-1. **[Test your agent]** ウィンドウの上部で、**[Start a new conversation]** アイコン (更新アイコン) を選択します。
+1. **[エージェントのテスト]** ペインの上部にある **[新しいテスト セッションの開始]** アイコンを選択します。
 
     ![テスト パネル オプションのスクリーンショット。](../media/copilot-test-pane-start-new-conversation.png)
 

@@ -18,9 +18,7 @@ lab:
 
 ### タスク 1.1 - ソリューションをダウンロードする
 
-1. 新しいブラウザー タブで、GitHub の `https://github.com/MicrosoftLearning/mslearn-copilotstudio/blob/main/Allfiles/Bookings_1_0_0_0.zip` にある **Bookings_1_0_0_0.zip** ファイルに移動します。
-
-1. 右上の **省略記号 (...) ** を選択し、 **[ダウンロード]** を選択します。
+1. 新しいブラウザー タブで、`https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/Allfiles/Bookings_1_0_0_0.zip` に移動し、**Bookings_1_0_0_0.zip** ファイルをダウンロードします。
 
 1. ブラウザー タブを閉じます。
 
@@ -64,7 +62,7 @@ lab:
 
 1. Bookings ソリューションの左側のナビゲーションで、 **[オブジェクト]** タブを選択します。
 
-1. **省略記号 ...** を選択する **Real Estate Property Management** モデル駆動型アプリ のメニューで、**[再生]** を選択します。
+1. **省略記号 ...** を選択する **Real Estate Property Management** モデル駆動型アプリ のメニューで、**[再生]** を選択します。 これは、新しい不動産物件レコードを作成できる単純なモデル駆動型アプリです。 
 
     ![概要。](../media/play-app.png)
 
@@ -73,7 +71,7 @@ lab:
 1. 以下のデータを入力します。
 
     - **プロパティ名: **`1100 High Villas`
-    - **所有者:** ユーザーを選択します
+    - **所有者:** ユーザーを選択します (指定したユーザー名を検索します)
     - **希望価格: **`250,000`
     - **番地: **`Main Avenue`
     - **市区町村: **`Redmond`

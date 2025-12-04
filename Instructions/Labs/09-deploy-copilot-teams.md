@@ -54,10 +54,6 @@ lab:
 
 1. **[チャネルを追加]** を選択します。
 
-1. **利用可能オプション**を選択します。
-
-    ![Teams チャネルの可用性オプションのスクリーンショット。](../media/teams-availability-options.png)
-
 1. **[Teams でエージェントを表示する]** を選択します。
 
 1. **"This site is trying to open Microsoft Teams"** ダイアログ ボックスで **[Cancel]** を選択します。
@@ -68,7 +64,7 @@ lab:
 
     !["Add the app to Teams" ダイアログのスクリーンショット。](../media/teams-add-app.png)
 
-1. **[Open]** を選択します。
+1. **[開く]** を選択し、エージェントが Teams に読み込まれるのを待ちます。
 
 1. エージェントをテストする。
 
