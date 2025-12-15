@@ -42,9 +42,9 @@ lab:
 
 1. 左側のナビゲーション ウィンドウから **[エージェント]** を選択します。
 
-    ![Copilot Studio ポータルでのエージェント。](../media/copilot-studio-copilots.png)
+1. 前のラボで作成した **[Real Estate Booking Service]** エージェントを選択します。
 
-1. 前のラボで作成した [Real Estate Booking Service] エージェントを選択します。
+    ![Copilot Studio ポータルでのエージェント。](../media/copilot-studio-copilots.png)
 
 1. **[Topics]** タブを選択します。
 
@@ -201,15 +201,17 @@ lab:
 
     `Book a Real Estate Showing`
 
-1. **[表示名]** フィールドに、次のテキストを入力します。
-
-    `Book`
-
 1. **"Description"** フィールドに、次のテキストを入力します。
 
     `Select the property and requested date and create a booking request`
 
-1. **[保存]** を選択します。 **[発行]** \> **[発行]** を選択します。 
+1. **[モデル表示名]** フィールドに、次のテキストを入力します。
+
+    `Book Showing`
+
+1. **[保存]** を選択します。
+
+1. **[発行]** \> **[発行]** を選択します。 
 
 ### タスク 3.2 - トリガー フレーズを追加する
 

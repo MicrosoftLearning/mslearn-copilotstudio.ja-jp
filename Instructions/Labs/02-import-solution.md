@@ -20,8 +20,6 @@ lab:
 
 1. 新しいブラウザー タブで、`https://github.com/MicrosoftLearning/mslearn-copilotstudio/raw/main/Allfiles/Bookings_1_0_0_0.zip` に移動し、**Bookings_1_0_0_0.zip** ファイルをダウンロードします。
 
-1. ブラウザー タブを閉じます。
-
 ### タスク 1.2 - ソリューションをインポートする
 
 1. 新しいブラウザー タブで、`https://make.powerapps.com` に移動します。
@@ -44,7 +42,7 @@ lab:
 
 1. **インポート**を選択します。
 
-    ソリューションはバックグラウンドでインポートされます。 これには数分かかることがあります。
+    ソリューションはバックグラウンドでインポートされます。 これには数分かかることがあります。 ウィンドウを更新できます。
 
     ![ソリューションのインポート](../media/solution-imported.png)
 
