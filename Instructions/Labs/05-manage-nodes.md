@@ -63,7 +63,7 @@ lab:
 
 1. **[Topics]** タブを選択します。
 
-1. **[不動産の内見を予約する]** トピックを選択します。
+1. **[Book Showing]** トピックを選択します。
 
 1. トリガー ノードの下にある **[+]** アイコンを選択し、**[Send a message]** を選択します。
 
@@ -189,6 +189,6 @@ lab:
 
 1. 画面の右上にある **[Settings]** ボタンの横にある **3 つのドット**を選択し、**[Go to demo website]** を選択します。
 
-1. **[Type your message]** テキスト ボックスに、「**`I want to book a property`**」と入力します。
+1. **[Type your message]** テキスト ボックスに、「**`I want to book a property showing`**」と入力します。
 
 1. プロンプトに答えて、エージェントをテストします。
