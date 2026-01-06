@@ -211,10 +211,6 @@ lab:
 
     `Select the property and requested date and create a booking request`
 
-1. **[モデル表示名]** フィールドに、次のテキストを入力します。
-
-    `Book Showing`
-
 1. **[保存]** を選択します。
 
 ### タスク 3.2 - トリガー フレーズを追加する

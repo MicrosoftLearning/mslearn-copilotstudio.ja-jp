@@ -56,6 +56,8 @@ lab:
 
 1. **[保存]** を選択します。
 
+    ![Copilot Studio でのエージェントの指示のスクリーンショット。](media/copilot-studio-instructions.png)
+
 1. **[ナレッジ]** セクションで、**[すべてのパブリック Web サイトが検索されるようにエージェントを有効にする]** を **[無効]** に切り替えます。
 
     ![エージェントの Web 検索を無効にする](media/web-disabled.png)
@@ -188,7 +190,7 @@ lab:
         ```prompt
         "Hello"
         "Who should I contact with expense enquiries?"
-        "What are the expense limits for flights?"`
+        "What are the expense limits for flights?"
         ```
 
 1. **[保存]** を選択します。
@@ -217,7 +219,7 @@ lab:
 
     ![Copilot Studio の [チャネル] のスクリーンショット。](media/test-pane-options.png)
 
-1. **[Test]** ウィンドウを展開し、会話を再開します。 次に、次のプロンプトを入力します。
+1. **[テスト]** ペインを展開し、新しいテスト セッションを開始します。 次に、次のプロンプトを入力します。
 
     ```prompt
     What's the expense limit for a hotel stay?
@@ -237,6 +239,6 @@ lab:
 これで、Copilot Studio を使用して簡易エージェントを作成する方法がわかりました。次は、習得した知識を自力で適用します。 Microsoft Copilot に関する質問に対する回答を提供するエージェントを作成してみてください。
 
 - 新しいエージェントを作成する
-- `https://www.microsoft.com/en-us/microsoft-copilot/` Web サイトをナレッジ ソースとして使用します。
+- `https://www.microsoft.com/en-us/microsoft-copilot/` と `https://learn.microsoft.com/en-us/copilot/` の Web サイトをナレッジ ソースとして使用します。
 
 > **ヒント**: サポートが必要な場合は、[Copilot Studio のドキュメント](https://learn.microsoft.com/microsoft-copilot-studio/) (`https://learn.microsoft.com/microsoft-copilot-studio/`) をご覧ください。
