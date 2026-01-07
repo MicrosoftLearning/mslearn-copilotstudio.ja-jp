@@ -44,7 +44,7 @@ lab:
 
 1. 前のラボで作成した **[Real Estate Booking Service]** エージェントを選択します。
 
-    ![Copilot Studio ポータルでのエージェント。](../media/copilot-studio-copilots.png)
+    ![Copilot Studio ポータルでのエージェント。](../media/copilot-studio-agents.png)
 
 1. **[Topics]** タブを選択します。
 
@@ -66,13 +66,15 @@ lab:
 
 1. **[Name your topic]** テキスト ボックスに「**`Customer Details`**」と入力します。
 
-1. **[Create a topic to...]** テキスト ボックスに「**`Ask the customer for their name and email address.`**」と入力します。
+1. **[トピックを作成する目的]** テキスト ボックスに「**`Ask the customer for their name and email address`**」と入力します。
 
-1. **[Create]** を選択します。
+1. **［作成］** を選択します
 
 1. **[Save]** を選択します。
 
 ### タスク 2.2 - 自然言語でノードを更新する
+
+1. **[エージェントのテスト]** ペインが開いている場合は、ペインを閉じます。
 
 1. **[Customer Details]** ペインの右側に **[Edit with CoPilot]** ペインが表示されない場合は、作成キャンバスの上部にある**Copilot** アイコンを選択します。
 
@@ -169,7 +171,7 @@ lab:
 
 ### タスク 2.4 - トピックをテストする
 
-1. **[エージェントのテスト]** パネルが閉じている場合は、パネルの右上にある **[テスト]** ボタンを選択します。
+1. **[エージェントのテスト]** パネルが閉じている場合は、ページの右上にある **[テスト]** アイコンを選択します。
 
 1. テスト パネルの上部にある **[新しいテスト セッションの開始]** アイコンを選択します。
 
@@ -199,19 +201,17 @@ lab:
 
 1. **"Name"** フィールドに、次のテキストを入力します。
 
+    `Book Showing`
+
+1. **"Display Name"** フィールドに、次のテキストを入力します。
+
     `Book a Real Estate Showing`
 
 1. **"Description"** フィールドに、次のテキストを入力します。
 
     `Select the property and requested date and create a booking request`
 
-1. **[モデル表示名]** フィールドに、次のテキストを入力します。
-
-    `Book Showing`
-
 1. **[保存]** を選択します。
-
-1. **[発行]** \> **[発行]** を選択します。 
 
 ### タスク 3.2 - トリガー フレーズを追加する
 
