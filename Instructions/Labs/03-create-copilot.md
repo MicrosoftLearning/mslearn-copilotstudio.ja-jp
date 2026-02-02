@@ -35,35 +35,35 @@ lab:
 
 この演習では、Microsoft Copilot Studio ポータルの開発環境にアクセスし、新しいエージェントを作成します。
 
-### タスク 1.1 – 予約ソリューションを開く
+### タスク 1.1 – Bookings ソリューションでエージェントを作成する
 
-1. 新しいブラウザー タブで、`https://make.powerapps.com` に移動します。
+1. 新しいブラウザー タブで、`https://copilotstudio.microsoft.com` に移動します。
 
 1. 適切な環境にいることを確認します。
 
-1. **[ソリューション]** \> **[Bookings]** を選択します
+1. 左側のナビゲーションで、**[エージェント]** を選択します。
 
-1. **[新規]** \> **[エージェント]** \> **[エージェント]** を選択します
+1. **[空のエージェントの作成]** \> **[高度な作成]** の横にある矢印を選択します。
 
-### タスク 1.2 - エージェントを作成する
+1. **[ソリューション]** を **[Bookings]** に更新する
 
-1. **[構成]** タブをクリックします。
+1. **[Schema Name]** に「`labagent`」と入力します。
+
+1. **[確認して作成する]** を選択します。
+
+### タスク 1.2 – エージェントを構成する
+
+1. **詳細** セクションで **編集** を選択します
 
 1. **[Name]** テキスト ボックスに「**`Real Estate Booking Service`**」と入力します。
 
 1. **[Description]** テキスト ボックスに「**`Create bookings for real estate properties`**」と入力します。
 
-1. **[Instructions]** テキスト ボックスに「**`Create an agent for topics relating to creating bookings for real estate properties`**」と入力します。
+1. **[保存]** を選択します。
 
-1. ページの右上にある**省略記号 [...]** メニューを選択し、**[詳細設定の更新]** を選択します。
+1. **[手順]** セクションの **[編集]** を選択します
 
-1. **[Schema Name]** に「`labagent`」と入力します。
-
-    ![Copilot Studio ポータルの詳細設定。](../media/copilot-studio-advanced-settings.png)
-
-1. **[更新]** を選択します。
-
-1. ページの右上にある **[作成]** を選択します。 エージェントの設定が完了するまで待ちます。
+1. 手順を **`Create an agent for topics relating to creating bookings for real estate properties`** に更新して**保存**します。
 
 1. 右側の **[エージェントのテスト]** ペインで「**`How do I make a booking?`**」と入力して応答を表示します。
 
