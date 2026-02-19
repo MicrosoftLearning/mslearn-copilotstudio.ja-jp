@@ -95,7 +95,7 @@ lab:
 
 1. **[Public websites]** を選択する
 
-1. **"Public website link"** テキスト ボックスに「**`https://word.cloud.microsoft/en/create`**」と入力します。 この一般向け Web サイトには、エージェントに役立つ可能性のあるマーケティング資料用のテンプレートが多数用意されています。
+1. **"Public website link"** テキスト ボックスに「**`https://www.realtor.com/marketing/resources`**」と入力します。 この公開用 Web サイトには、エージェントに役立つ可能性のある不動産マーケティングのヒントがあります。
 
 1. **[追加]** を選択します。
 
