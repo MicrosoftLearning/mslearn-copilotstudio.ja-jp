@@ -77,7 +77,7 @@ lab:
 
 ### タスク 2.1 – 説明からトピックを追加する
 
-1. **[+ Add a topic]** を選択し、**[Create from description with Copilot]** を選択します。 新しいウィンドウが開きます。
+1. **[+ トピックの追加]** を選択し、**[Copilot を使用して説明から追加]** を選択します。 新しいウィンドウが開きます。
 
     ![Copilot でトピックを作成します。](../media/topic-create-from-description-2.png)
 
