@@ -2,6 +2,13 @@
 lab:
   title: Microsoft Copilot Studio で生成 AI を使用する
   module: Enhance Microsoft Copilot Studio agents
+  description: このラボでは、次の方法で、運用環境を準備するための生成 AI の動作をアクティブに構成しました。
+  duration: 120 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Copilot
+    - Microsoft Copilot Studio
 ---
 
 # Microsoft Copilot Studio で生成 AI を使用する

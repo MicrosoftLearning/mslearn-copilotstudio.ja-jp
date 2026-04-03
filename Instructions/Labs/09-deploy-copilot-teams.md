@@ -2,6 +2,12 @@
 lab:
   title: Microsoft Teams にエージェントをデプロイする
   module: Create an agent with Microsoft Copilot Studio and Dataverse for Teams
+  description: このラボでは、エージェントを Microsoft Teams にデプロイしました。 おめでとうございます。以上でラボは完了です。
+  duration: 54 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft Teams
 ---
 
 # Microsoft Teams にエージェントをデプロイする

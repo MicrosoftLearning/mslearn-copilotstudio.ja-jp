@@ -2,6 +2,10 @@
 lab:
   title: エージェント フローを作成する
   module: Enhance Microsoft Copilot Studio agents
+  description: この演習では、ユーザーが指定した条件に基づいてプロパティを取得するエージェント フローを作成します。
+  duration: 164 minutes
+  level: 100
+  islab: true
 ---
 
 # エージェント フローを作成する

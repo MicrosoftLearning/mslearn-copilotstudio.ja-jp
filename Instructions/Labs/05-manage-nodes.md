@@ -2,6 +2,10 @@
 lab:
   title: ノードを管理する
   module: Manage topics in Microsoft Copilot Studio
+  description: 'このラボでは、生成 AI を有効にしたまま、[内覧予約] のトピックを作成し、ノードを使用して構造化されたステップごとの対話を適用しました。 また、[顧客の詳細] で収集された情報をトピック間で使用できるように、変数のスコープも構成しました。'
+  duration: 152 minutes
+  level: 100
+  islab: true
 ---
 
 # ノードを管理する

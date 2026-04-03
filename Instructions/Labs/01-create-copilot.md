@@ -2,6 +2,10 @@
 lab:
   title: Copilot Studio を使用してエージェントを作成する
   module: Build an initial agent with Microsoft Copilot Studio
+  description: この演習では、Copilot Studio を使用して、架空の企業の経費ポリシーに関する従業員の質問に回答する簡易エージェントを作成します。
+  duration: 10 minutes
+  level: 100
+  islab: true
 ---
 
 # Copilot Studio を使用してエージェントを作成する
