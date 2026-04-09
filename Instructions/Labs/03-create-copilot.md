@@ -2,6 +2,13 @@
 lab:
   title: 最初のエージェントを構築する
   module: Manage topics in Microsoft Copilot Studio
+  description: この演習では、Microsoft Copilot Studio ポータルにアクセスし、適切な環境を選択して、新しいエージェントを作成します。
+  duration: 84 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft Copilot
+    - Microsoft Copilot Studio
 ---
 
 # 最初のエージェントを構築する

@@ -2,6 +2,10 @@
 lab:
   title: トピックの管理
   module: Manage topics in Microsoft Copilot Studio
+  description: この演習では、Copilot を使用して説明からトピックを作成します。 これにより、生成 AI が初期構造を下書きして、それを調整することができます。
+  duration: 102 minutes
+  level: 100
+  islab: true
 ---
 
 # トピックの管理

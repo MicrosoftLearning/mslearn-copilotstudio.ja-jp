@@ -2,6 +2,10 @@
 lab:
   title: エンティティの使用
   module: Work with entities and variables in Microsoft Copilot Studio
+  description: このラボでは、生成 AI を有効にしたまま、エンティティを使用して自然言語から構造化された値を抽出しました。 エンティティを使用すると、エージェントが予測可能な動作を維持しながら柔軟な入力を受け入れることができます。
+  duration: 122 minutes
+  level: 100
+  islab: true
 ---
 
 # エンティティの使用

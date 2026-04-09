@@ -2,6 +2,10 @@
 lab:
   title: Dataverse ソリューションをインポートする
   module: Build an initial agent with Microsoft Copilot Studio
+  description: この演習では、ラボに必要なテーブルを含む環境に Dataverse ソリューションをインポートします。
+  duration: 70 minutes
+  level: 100
+  islab: true
 ---
 
 # Dataverse ソリューションをインポートする
