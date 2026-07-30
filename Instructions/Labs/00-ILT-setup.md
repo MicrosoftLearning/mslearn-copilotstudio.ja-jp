@@ -38,12 +38,15 @@ lab:
    - **種類**: 開発者
    - **地域**: 既定の地域
    - **名前**: *自分の名前*
+
+   ![Power Platform 管理センターで環境を作成します。](../media/create-environment.png)
+
+1. **[デフォルト設定の変更]** を展開し、次の項目を設定します。
    - **環境グループ**: なし
    - **これをマネージド環境にする**: いいえ
    - **新機能を早期に取得する**: いいえ
    - **代理での作成**: いいえ
-
-   ![Power Platform 管理センターで環境を作成します。](../media/create-environment.png)
+   - **Dataverse 格納データを追加しますか?**: はい
 
 1. **[次へ]** を選択し、**[Dataverse の追加]** セクションで次のようにします。
 
@@ -61,7 +64,7 @@ lab:
 1. 新しいブラウザー タブで、`https://copilotstudio.microsoft.com/` に移動し、メッセージが表示されたらサインインします。
 
   > [!NOTE]  
-  > Copilot Studio や環境の読み込みで問題が発生した場合:
+  > 環境への Copilot Studio の読み込みで問題が発生した場合は、次の動作を行います:
   > - まず、Power Platform 管理センターから環境 ID (GUID) をキャプチャします。
   >   1. `https://admin.powerplatform.microsoft.com/manage/environments` で作成した環境を開きます。
   >   2. URL の環境 ID (`12345678-90ab-cdef-1234-567890abcdef` などの長い文字列) を見つけます。
@@ -100,6 +103,8 @@ lab:
 1. **[名前]** に「`fabrikam`」と入力します。
 
 1. **[プレフィックス]** に「`fab`」と入力します。
+
+1. **[保存]** を選択して、発行元を作成します。
 
 1. **[発行元]** ドロップダウンで **[Fabrikam (fabrikam)]** が選択されていることを確認します。
 
