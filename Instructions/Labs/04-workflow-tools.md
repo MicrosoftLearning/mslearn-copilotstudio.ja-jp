@@ -218,11 +218,34 @@ lab:
 
 ### タスク 2.5 - エージェントへの指示を更新する
 
+> [!IMPORTANT]
+> Copilot がエージェントを作成する際に生成する指示はさまざまであり、多くの場合、長く一般的です。 それらの指示により、エージェントは、知識を基に回答したり、トピックやツールを呼び出す代わりにタスクの一覧をユーザーに求めたりすることがあります。 このタスクでは、生成された指示を特定の指示セットに置き換えて、残りの演習でエージェントが予測どおりに動作するようにします。
+
 1. **[概要]** タブを選択します。
 
 1. **[指示]** セクションで、**[編集]** を選択します。
 
-1. エージェントへの指示の *# ステップバイステップの指示* で、最後のステップに `Use the ` を追加し、`/` を入力し、**[Teams に要約を送信する]** ツールを選択して、「` when the task analysis is complete.`」と入力します
+1. **[指示]** ボックス内の既存のテキストをすべて選択し、削除します。
+
+1. 次の指示を入力します。 テキストに `<Send Summary to Teams>` などのプレースホルダーが示されている場合、プレースホルダーを入力しないでください。 代わりに `/` を入力し、一覧から **[要約を Teams に送信する]** ツールを選択して、そのツールが参照として挿入されるようにします。
+
+   ```prompt
+   # Purpose
+   The purpose of this agent is to analyze, categorize, and prioritize tasks, and to send a summary of the analysis to a Microsoft Teams channel.
+
+   # General guidelines
+   - Maintain a professional and supportive tone.
+   - Always use the topics and tools listed below. Don't answer from your own knowledge.
+
+   # Skills
+   - Use the <Send Summary to Teams> tool to post a summary of the task analysis to Microsoft Teams.
+
+   # Step-by-step instructions
+   1. Analyze tasks
+      - Categorize and prioritize the tasks that the user provides.
+   2. Send the results
+      - Use the <Send Summary to Teams> tool when the task analysis is complete.
+   ```
 
    ![エージェントへの指示でワークフロー ツールを参照しているスクリーンショット。](../media/workflow-add-tool-to-instructions.png)
 
@@ -258,7 +281,7 @@ lab:
 
 ### タスク 3.1 - Excel ファイルを作成する
 
-[!NOTE]
+> [!NOTE]
 > このスプレッドシートの作成に問題がある場合は、次のリンクからコピーをダウンロードできます。[ファイルをダウンロードします](../../Allfiles/Operations%20tasks.xlsx)
 
 1. Copilot Studio で、左上隅にある **[アプリ起動ツール]** アイコンを選択し、**[OneDrive]** を選択します。
@@ -374,7 +397,7 @@ lab:
 
 1. **[サインイン]** を選択して、接続を作成します。
 
-1. **[アカウントにサインイン]** ダイアログで、このラボ環境に使用しているアカウント (例: **MOD Administrator**) を選択し、**[この要求を検証し、ソースを信頼しています]** チェックボックスをオンにし、**[アクセスを許可する]** を選択してください。
+1. **[アカウントにサインイン]** ダイアログで、このラボ環境で使用するアカウント (例: **[MOD 管理者]**) を選択します。 メッセージが表示されたら、**[この要求を検証し、ソースを信頼します]** チェックボックスをオンにし、**[アクセスを許可する]** を選択します。
 
 1. **[場所]** で **[OneDrive for Business]** を選択します。
 
@@ -465,6 +488,8 @@ lab:
 
    ![ツールとしてのワークフローの入力を示すスクリーンショットです。](../media/workflow-tool-inputs.png)
 
+1. **Global.Priority** 値の横にある省略記号 (**[...]**) を選択し、**[数式]** (**[fx]**) を選択して「`Text(Global.Priority)`」と入力し、**[挿入]** を選択します。 質問 **Priority** では選択値が格納されますが、ワークフローにはテキストが必要なため、この数式は値を変換し、型の不一致エラーを防ぎます。
+
 1. **[完了]** セクションの **[実行後]** で、**[生成 AI で応答を記述する]** を選択します。
 
 1. **[保存]** を選択します。
@@ -487,7 +512,9 @@ lab:
 
 1. **[指示]** セクションで、**[編集]** を選択します。
 
-1. エージェントへの指示の "## Skills" で、最後のステップに `Use the ` を追加し、`/` を入力し、**[優先タスク]** トピックを選択して、「` to get the task list.`」と入力します。**
+1. *# Skills* セクションで、新しい行を追加し、「`- Use the `」と入力し、`/` を入力し、**[優先タスク]** トピックを選択して、「` topic to get the task list.`」と入力します。
+
+1. *# Step-by-step instructions* セクションの **1. Analyze tasks** の下に新しい行を追加し、「`- Use the `」と入力し、`/` を入力し、**[優先タスク]** トピックを選択して、「` topic to get the task list.`」と入力します。
 
 1. **[保存]** を選択します。
 
@@ -504,6 +531,9 @@ lab:
    `Analyze the task list`
 
 1. **[優先タスク]** トピックが表示されます。
+
+   > [!NOTE]
+   > エージェントが **[優先タスク]** トピックを開かずに回答した場合は、**[概要]** タブで、エージェントの指示で **[優先タスク]** トピックが参照され、挿入された参照として **[要約を Teams に送信する]** ツールが参照されていることを確認し、新しいテスト セッションを開始します。
 
 1. **[中]** を選択します。
 
